@@ -1,0 +1,305 @@
+    /**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+
+
+
+
+html,body{
+    min-width:960px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+	}
+
+body {
+	overflow-x: hidden;
+	}
+
+
+#contentwrapper{
+	min-width:960px;
+	height:1900px;
+	position:relative;
+	top:400px;
+	margin:auto;
+
+}
+
+/*START HEADER SECTION*/
+
+header{
+	float:left;
+	position:absolute;
+	overflow:hidden;
+	width:100%;
+	height:400px;
+	background-image: url(images/background.png);
+	border:white 3px solid;
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#reneelogo {
+	width:40%;
+	height:40%;
+	display:block;
+	margin:auto;
+	position:relative;
+	top:100px;
+}
+
+/*START NAVIGATION (TAB) SECTION*/
+
+.tablist {
+	float:left;
+    list-style:none;
+    height:3em;
+    padding:0;
+    border:none;
+    position:relative;
+    top:212px;
+    left:50%;
+    }
+
+.tablist li{
+	float:left;
+	padding-right:3em;
+	position:relative;
+	right:50%;
+	}
+
+.tablist a {
+	display:block;
+    padding:.4em 3em;
+    text-decoration:none;
+    border-bottom:0;
+    font-family:'Poiret One', cursive;
+    color:#000;
+    background-color:#FDFDFD;
+    border-radius:3px;
+	}
+
+
+
+/*START INTRO SECTION*/
+
+#introcontent{
+	height:200px;
+	position:relative;
+	background-color:#FDFDFD;
+}
+
+h1{
+  font-family:'Poiret One', cursive;
+  text-align:center;
+  font-size:1.4em;
+  top:80px;
+  position:relative;
+}
+
+h2{
+  font-family:'Poiret One', cursive;
+  text-align:center;
+  font-size:1.4em;
+  top:70px;
+  position:relative;
+}
+
+
+/*START ABOUT SECTION*/
+
+#aboutwrapper{
+	width:100%;
+	height:640px;
+	position:relative;
+	background-color:#545454;
+}
+
+#aboutinfo{
+	position:absolute;
+	min-width:40%;
+	max-width:80%;
+	height:640px;
+	background-color:#545454;
+}
+
+#imagecontainer{
+	float:right;
+	position:relative;
+}
+
+
+#renee{
+	position:relative;
+}
+
+#heart{
+	margin:auto;
+	position:relative;
+	right:50%;
+	left:35%;
+	top:35px;
+}
+
+#whatilove{
+	width:260px;
+	height:300px;
+	display:block;
+	position:absolute;
+	top:200px;
+	left:58%;
+	right:50%;
+
+}
+
+h3{
+	font-family:'Poiret One', cursive;
+  	text-align:center;
+  	font-size:1.8em;
+  	color:#FDFDFD;
+}
+
+.lovelist {
+	list-style:none;
+	text-align:center;
+	font-family:'Poiret One', cursive;
+	font-size:1.4em;
+	padding:20px;
+
+}
+
+.lovelist li{
+	list-style:none;
+	padding-top:15px;
+	color:#FDFDFD;
+}
+
+/*START CLIENT SECTION*/
+
+#clients{
+	width:100%;
+	height:500px;
+}
+
+#clientbreak{
+	width:100%;
+	height:160px;
+	background-image: url(images/background.png);
+	position:relative;
+
+}
+
+#clientwrapper{
+
+  	width:600px;
+  	height:80px;
+  	margin:auto;
+  	position:relative;
+  	top:30%;
+  }
+
+h4{
+  	font-family:'Poiret One', cursive;
+  	font-size:1.8em;
+  	color:#FDFDFD;
+  	text-align:center;
+  	padding:0 0 20px 0;
+
+}
+
+#clientlogos{
+	width:100%;
+	height:340px;
+	background-color:#FDFDFD;
+}
+
+.logos{
+	position:relative;
+	top:30%;
+	left:400px;
+	padding-right:30px;
+
+}
+
+/*START FOOTER SECTION*/
+
+footer {
+	width:100%;
+	height:540px;
+	bottom:0;
+	position:absolute;
+	background-color:#545454;
+}
+
+#contactwrapper{
+	width:600px;
+	height:400px;
+	margin:auto;
+	top:100px;
+	position:relative;
+
+}
+
+
+h5{
+  	font-family:'Poiret One', cursive;
+  	font-size:3.5em;
+  	color:#FDFDFD;
+  	text-align:center;
+  	text-decoration:none;
+
+}
+
+h6{
+  	font-family:'Poiret One', cursive;
+  	font-size:2.4em;
+  	color:#FDFDFD;
+  	text-align:center;
+  	padding-top:80px;
+
+}
+
+.display{
+	display:inline-block;
+	padding-right:20px;
+}
+
+#socialmediacontainer{
+	text-align:center;
+	position:relative;
+	top:70px;
+
+}
